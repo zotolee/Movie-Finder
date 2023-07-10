@@ -27,15 +27,11 @@ function showMovies(movies) {
         movieEl.classList.add('movie')
 
         movieEl.innerHTML = `
-        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
-        <div class="col">
-        <div class="card mt-3">
+        <div class="card h-100 mt-3">
         <img src="${IMGPATH + poster_path}" class="card-img-top" alt="${title}">
         <div class="card-body">
           <p class="card-text">${overview}</p>
         </div>
-      </div>
-      </div>
       </div>
         `
 
